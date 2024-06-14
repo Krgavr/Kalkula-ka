@@ -19,6 +19,8 @@ def test_plus(a, b, out, calculator):
 def test_posledni_vysledek(calculator):
     calculator.plus(3, 2)
     assert calculator.posledni_vysledek() == 5
+    calculator.plus(4, 2)
+    assert calculator.posledni_vysledek() == 5
 
 
 @pytest.mark.parametrize("x,out", [
