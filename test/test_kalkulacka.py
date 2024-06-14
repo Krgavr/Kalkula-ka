@@ -1,6 +1,7 @@
 import pytest
 #from code.kalk import *
-from code import kalk
+from kalk import Kalkulacka
+import math
 
 @pytest.fixture
 def calculator():
