@@ -18,7 +18,7 @@ def test_plus(a, b, out, calculator):
     
 
 def test_posledni_vysledek(calculator):
-    calculator.plus(3, 2)
+    calculator.plus(3, 1)
     assert calculator.posledni_vysledek() == 5
 
 
