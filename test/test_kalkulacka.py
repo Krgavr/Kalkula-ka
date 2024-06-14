@@ -1,5 +1,5 @@
 import pytest
-from code.kalkulacka import *
+from code.kalk import *
 
 
 @pytest.fixture
