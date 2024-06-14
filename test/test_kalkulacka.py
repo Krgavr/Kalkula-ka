@@ -1,6 +1,6 @@
 import pytest
-from code.kalk import *
-
+#from code.kalk import *
+from code import kalk
 
 @pytest.fixture
 def calculator():
