@@ -1,6 +1,7 @@
 import pytest
-from code.kalkulacka import *
-
+#from code.kalk import *
+from kalk import Kalkulacka
+import math
 
 @pytest.fixture
 def calculator():
@@ -17,8 +18,9 @@ def test_plus(a, b, out, calculator):
     
 
 def test_posledni_vysledek(calculator):
-    calculator.plus(3, 2)
+    calculator.plus(3, 1)
     assert calculator.posledni_vysledek() == 5
+
 
 
 @pytest.mark.parametrize("x,out", [
